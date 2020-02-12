@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: ÊàëèàñêàðÐ
+ * User: ÃŠÃ Ã«Ã¨Ã Ã±ÃªÃ Ã°Ã
  * Date: 10.02.2020
  * Time: 16:21
  */
 spl_autoload_register(function ($name){
-    $file = "classes" . DIRECTORY_SEPARATOR . "{$name}.php";
+    $file = "Classes" . DIRECTORY_SEPARATOR . "{$name}.php";
     if(!file_exists($file))
         die ("{$file} doesnt't exist");
     include_once $file;
