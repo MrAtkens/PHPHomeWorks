@@ -1,0 +1,22 @@
+{
+    "name": "step/composer",
+    "description": "Tag home work with composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "r.kaliaskar@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Step\\": "./app",
+            "TagElement\\": "./app/HTML/TagElements"
+        }
+    }
+}
